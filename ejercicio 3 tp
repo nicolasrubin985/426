@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int pesos  ;
+	long conversion ;
+	cout<< "ingrese los pesos : "<< endl;
+	cin>> pesos ;
+	
+	conversion= long(pesos * 1077);
+				
+	cout<<"la conversion es:" << conversion << endl ;
+
+	
+	
+}
