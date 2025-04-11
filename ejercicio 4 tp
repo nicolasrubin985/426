@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int lado ,altura, perimetro , area ;
+	cout<< "ingrese el lado : "<< endl;
+	cin>> lado ;
+	cout<< "ingrese la altura: "<< endl;
+	cin>> altura;
+	
+	perimetro = lado *3 ;
+	
+	area = (lado * altura)/3 ;
+	
+	cout<< " el area es: "<< area<<endl<< "el perimetro es: "<< perimetro<< endl;
+	
+	
+	
+	
+	
+	
+}
