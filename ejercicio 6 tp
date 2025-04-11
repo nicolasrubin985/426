@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int  tiempo , distancia , metros ;
+	const  int  v_sonido = 343;
+		
+	distancia = v_sonido / 3;
+	
+	metros = distancia *1000;
+	
+	
+	
+	
+	cout<< " la distancia de la tormenta en Metros: "<< metros<<endl;
+	
+	
+	
+	
+	
+	
+}
